@@ -31,7 +31,7 @@ OmniText is a comprehensive and intuitive web application built with Streamlit f
 
 Bash
 
-git clone https://github.com/your-username/omnitext.git
+git clone https://github.com/Silverfang180/omnitext.git
 cd omnitext
 
  **2. Create and Activate a Virtual Environment**
