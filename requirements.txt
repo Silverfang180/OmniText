@@ -1,10 +1,10 @@
-streamlit
-spacy
-sumy
-pandas
-matplotlib
-networkx
-wordcloud
-textblob
-requests
-beautifulsoup4
+pip install streamlit
+pip install spacy
+pip install sumy
+pip install pandas
+pip install matplotlib
+pip install networkx
+pip install wordcloud
+pip install textblob
+pip install requests
+pip install beautifulsoup4
