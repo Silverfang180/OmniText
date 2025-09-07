@@ -1,10 +1,10 @@
 streamlit
 spacy
 sumy
-textblob
-wordcloud
 pandas
 matplotlib
 networkx
+wordcloud
+textblob
 requests
 beautifulsoup4
