@@ -28,13 +28,15 @@ st.set_page_config(
 )
 
 # Load spaCy model
+# Load spaCy model
 @st.cache_resource
 def load_model():
     try:
         nlp = spacy.load("en_core_web_sm")
     except OSError:
-        st.error("Please download the English model by running: python -m spacy download en_core_web_sm")
-        st.stop()
+        from spacy.cli import download
+        download("en_core_web_sm")
+        nlp = spacy.load("en_core_web_sm")
     return nlp
 
 nlp = load_model()
@@ -270,3 +272,4 @@ st.markdown('<div class="footer">', unsafe_allow_html=True)
 st.markdown("### TextInsight - NLP Text Analysis Tool")
 st.markdown("Created with ❤️ using Streamlit, spaCy, and sumy")
 st.markdown('</div>', unsafe_allow_html=True)
+
