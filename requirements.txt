@@ -1,0 +1,10 @@
+streamlit
+spacy
+sumy
+pandas
+matplotlib
+networkx
+wordcloud
+textblob
+requests
+beautifulsoup4
