@@ -19,6 +19,7 @@ from textblob import TextBlob
 import requests
 from bs4 import BeautifulSoup
 
+
 # Set page configuration
 st.set_page_config(
     page_title="NLP Text Analyzer",
@@ -28,7 +29,7 @@ st.set_page_config(
 )
 
 # Load spaCy model
-# Load spaCy model
+# Load spaCy model - THIS IS THE CORRECT VERSION
 @st.cache_resource
 def load_model():
     try:
@@ -272,4 +273,5 @@ st.markdown('<div class="footer">', unsafe_allow_html=True)
 st.markdown("### TextInsight - NLP Text Analysis Tool")
 st.markdown("Created with ❤️ using Streamlit, spaCy, and sumy")
 st.markdown('</div>', unsafe_allow_html=True)
+
 
