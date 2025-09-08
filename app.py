@@ -268,3 +268,4 @@ st.markdown("### TextInsight - NLP Text Analysis Tool")
 st.markdown("Created with ❤️ using Streamlit, spaCy, and sumy")
 
 st.markdown('</div>', unsafe_allow_html=True)
+
