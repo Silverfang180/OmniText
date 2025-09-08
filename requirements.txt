@@ -8,3 +8,4 @@ wordcloud
 textblob
 requests
 beautifulsoup4
+https://github.com/explosion/en_core_web_sm/releases/download/v3.7.0/en_core_web_sm-3.7.0.tar.gz
