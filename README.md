@@ -62,3 +62,17 @@ Contributions are highly welcome! If you have ideas for new features, improvemen
 
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Samples
+<img width="940" height="458" alt="image" src="https://github.com/user-attachments/assets/749f2088-d088-4170-98f0-d11b7bec0593" />
+
+- From the above image, we are going to perform Summarization feature.
+
+<img width="941" height="463" alt="image" src="https://github.com/user-attachments/assets/e239f256-fe34-4cd8-bfa5-93964f50986c" />
+
+- This is an output of Summarization.
+
+<img width="940" height="462" alt="image" src="https://github.com/user-attachments/assets/7cc490e0-630c-4883-9535-4ba7fd654c6e" />
+
+- In this image, we perform NER(Name Entity Recognition) feature.
+
